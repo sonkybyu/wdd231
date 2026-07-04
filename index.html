@@ -2,10 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Home | NSISONG EKWERE AKPAKPAN | WDD231</title>
+    <meta name="author" content="NSISONG EKWERE AKPAKPAN">
+    <meta name="description"content="WDD231 Frontend Web Development Course Home Page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
 </head>
+
 <body>
-    
+
+<header>
+
+<div class="logo">
+<img src="images/logo.jpg"
+     alt="Site Logo"
+     width="60"
+     height="60">
+
+<span>NSISONG EKWERE AKPAKPAN</span>
+
+</div>
+
+<button id="menuButton"
+        aria-label="Open navigation">
+
+&#9776;
+
+</button>
+
+<nav id="navigation">
+<a href="index.html" class="active">
+Home
+</a>
+<a href="chamber/index.html">
+Chamber
+</a>
+<a href="final/index.html">
+Final
+</a>
+</nav>
+</header>
+
+<main>
+
+<h1>Home</h1>
+<div class="top-grid">
+<section>
+<h2>About Me</h2>
+
+<p> Hello! My name is NSISONG EKWERE AKPAKPAN.
+I am currently studying Software Development.
+I am a motivated and curious individual with a strong interest in learning and personal growth. I enjoy taking on new challenges and working hard to achieve my goals. I am known for being responsible, adaptable, and a good team player, always willing to listen and contribute ideas.
+I enjoy web development, programming,
+problem solving and learning modern
+technologies.</p>
+
+<p> This course helps me strengthen my understanding of modern web fundamentals. Useful resources include MDN Web Docs, W3Schools, and course assignments that reinforce best practices in semantic HTML, responsive CSS, and JavaScript. This website will contain my course
+projects throughout WDD231.
+</p>
+</section>
+<section>
+
+<h2>
+
+Student Photo
+
+</h2>
+
+<img src="images/photo.jpg"
+     alt="Student Photo">
+
+</section>
+
+</div>
+
+<section class="certificate">
+
+<h2> Web Certificate Courses </h2>
+<div class="buttons">
+<button id="all">
+All
+</button>
+
+<button id="cse">
+CSE
+</button>
+<button id="wdd">
+WDD
+</button>
+</div>
+<div id="course-container">
+</div>
+<p class="credits">
+The total credits for courses listed above is
+<strong>
+<span id="credits"></span>
+</strong>
+
+</p>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="social">
+
+<a href="https://github.com/yourusername"
+   target="_blank">
+
+<img src="images/github.svg"
+     alt="GitHub">
+
+</a>
+
+<a href="https://linkedin.com/in/yourprofile"
+   target="_blank">
+
+<img src="images/linkedin.svg"
+     alt="LinkedIn">
+
+</a>
+
+<a href="https://x.com"
+   target="_blank">
+
+<img src="images/x.svg"
+     alt="X">
+
+</a>
+
+</div>
+
+<p>
+
+&copy;
+
+<span id="currentyear"></span>
+
+NSISONG EKWERE AKPAKPAN | Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
 </body>
 </html>

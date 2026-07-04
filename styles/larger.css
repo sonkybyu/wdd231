@@ -1,0 +1,282 @@
+/* ==========================================
+   WDD231 Course Home Page
+   Desktop Styles
+=============================================*/
+
+@media only screen and (min-width: 768px) {
+
+/* ==============================
+   HEADER
+============================== */
+
+header{
+
+    padding:1rem 3rem;
+
+}
+
+.logo span{
+
+    font-size:1.8rem;
+
+}
+
+/* Hide Hamburger */
+
+#menuButton{
+
+    display:none;
+
+}
+
+/* ==============================
+   NAVIGATION
+============================== */
+
+nav{
+
+    display:flex !important;
+
+    position:static;
+
+    flex-direction:row;
+
+    width:auto;
+
+    background:none;
+
+    gap:10px;
+
+}
+
+nav a{
+
+    border:none;
+
+    padding:.8rem 1.2rem;
+
+    border-radius:6px;
+
+}
+
+nav a:hover{
+
+    background:rgba(255,255,255,.2);
+
+}
+
+nav a.active{
+
+    background:var(--accent);
+
+    color:black;
+
+}
+
+/* ==============================
+   MAIN
+============================== */
+
+main{
+
+    padding:2rem;
+
+}
+
+/* ==============================
+   TOP GRID
+============================== */
+
+.top-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:25px;
+
+    align-items:start;
+
+}
+
+/* ==============================
+   ABOUT SECTION
+============================== */
+
+.about{
+
+    min-height:320px;
+
+}
+
+/* ==============================
+   PHOTO SECTION
+============================== */
+
+.photo{
+
+    text-align:center;
+
+}
+
+.photo img{
+
+    width:100%;
+
+    max-width:280px;
+
+    margin:auto;
+
+}
+
+/* ==============================
+   COURSE BUTTONS
+============================== */
+
+.buttons{
+
+    justify-content:center;
+
+}
+
+.buttons button{
+
+    flex:1;
+
+    padding:14px;
+
+    cursor:pointer;
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.buttons button:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-2px);
+
+}
+
+/* ==============================
+   COURSE GRID
+============================== */
+
+#course-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+/* ==============================
+   COURSE CARD
+============================== */
+
+.course{
+
+    padding:1.2rem;
+
+    font-size:1.1rem;
+
+}
+
+.course:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+/* ==============================
+   FOOTER
+============================== */
+
+footer{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr;
+
+    align-items:center;
+
+    gap:20px;
+
+    text-align:center;
+
+}
+
+.social{
+
+    justify-content:flex-start;
+
+    margin-bottom:0;
+
+}
+
+footer p{
+
+    margin:0;
+
+}
+
+/* ==============================
+   LARGE HEADING
+============================== */
+
+h1{
+
+    font-size:2.3rem;
+
+}
+
+h2{
+
+    font-size:1.3rem;
+
+}
+
+/* ==============================
+   IMPROVE READABILITY
+============================== */
+
+section{
+
+    padding:1.5rem;
+
+}
+
+section h2{
+
+    margin:-1.5rem -1.5rem 1.5rem -1.5rem;
+
+}
+
+/* ==============================
+   CREDITS
+============================== */
+
+.credits{
+
+    font-size:1.2rem;
+
+}
+
+}
