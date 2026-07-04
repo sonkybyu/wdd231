@@ -10,145 +10,82 @@
 ============================== */
 
 header{
-
     padding:1rem 3rem;
-
 }
-
 .logo span{
-
     font-size:1.8rem;
-
 }
-
 /* Hide Hamburger */
-
 #menuButton{
-
     display:none;
-
 }
-
 /* ==============================
    NAVIGATION
 ============================== */
-
 nav{
-
     display:flex !important;
-
     position:static;
-
     flex-direction:row;
-
     width:auto;
-
     background:none;
-
     gap:10px;
-
 }
-
 nav a{
-
     border:none;
-
     padding:.8rem 1.2rem;
-
     border-radius:6px;
-
 }
-
 nav a:hover{
-
     background:rgba(255,255,255,.2);
-
 }
-
 nav a.active{
-
     background:var(--accent);
-
     color:black;
-
 }
-
 /* ==============================
    MAIN
 ============================== */
-
 main{
-
     padding:2rem;
-
 }
-
 /* ==============================
    TOP GRID
 ============================== */
-
 .top-grid{
-
     display:grid;
-
     grid-template-columns:2fr 1fr;
-
     gap:25px;
-
     align-items:start;
-
 }
 
 /* ==============================
    ABOUT SECTION
 ============================== */
-
 .about{
-
     min-height:320px;
-
 }
-
 /* ==============================
    PHOTO SECTION
 ============================== */
-
 .photo{
-
     text-align:center;
-
 }
-
 .photo img{
-
     width:100%;
-
     max-width:280px;
-
     margin:auto;
-
 }
-
 /* ==============================
    COURSE BUTTONS
 ============================== */
-
 .buttons{
-
     justify-content:center;
-
 }
-
 .buttons button{
-
     flex:1;
-
     padding:14px;
-
     cursor:pointer;
-
     background:var(--primary);
-
     color:white;
 
     border:none;
