@@ -10,24 +10,14 @@
         "email": "support@akwasavings.com"
     },
     {
-        "name": "Akwa Savings Bank",
-        "address": "Abak Road, Uyo",
-        "phone": "+234 803 111 0002",
-        "website": "https://www.akwasavings.com",
-        "image": "images/akwasaving.webp",
-        "membership": 3,
-        "industry": "Banking",
-        "email": "support@akwasavings.com"
-    },
-{
-    "name": "Ibom Plaza Shopping Centre",
+        "name": "Ibom Plaza Shopping Centre",
         "address": "Ibom Plaza, Uyo, Akwa Ibom",
         "phone": "+234 803 111 0001",
         "website": "https://www.ibomplaza.com",
-        "image": "images/ibomplaza.webp",
-        "membership": 1,
-        "industry": "Retail",
-        "email": "info@ibomplaza.com"
+        "image": "images/ibom.jpg",
+        "membership": 3,
+        "industry": "Banking",
+        "email": "support@ibomplaza.com"
     },
 
     {
