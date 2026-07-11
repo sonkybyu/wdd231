@@ -1,15 +1,4 @@
-[
-    {
-        "name": "Ibom Plaza Shopping Centre",
-        "address": "Ibom Plaza, Uyo, Akwa Ibom",
-        "phone": "+234 803 111 0001",
-        "website": "https://www.ibomplaza.com",
-        "image": "https://sonkybyu.github.io/wdd231/chamber/images/ibomplaza.webp",
-        "membership": 3,
-        "industry": "Retail",
-        "email": "info@ibomplaza.com"
-    },
-    {
+[    {
         "name": "Akwa Savings Bank",
         "address": "Abak Road, Uyo",
         "phone": "+234 803 111 0002",
@@ -20,11 +9,22 @@
         "email": "support@akwasavings.com"
     },
     {
+        "name": "Ibom Plaza Shopping Centre",
+        "address": "Ibom Plaza, Uyo, Akwa Ibom",
+        "phone": "+234 803 111 0001",
+        "website": "https://www.ibomplaza.com",
+        "image": "images/ibomplaza.webp",
+        "membership": 3,
+        "industry": "Retail",
+        "email": "info@ibomplaza.com"
+    },
+
+    {
         "name": "De Choice Bakery",
         "address": "Wellington Bassey Way, Uyo",
         "phone": "+234 803 111 0003",
         "website": "https://www.dechoicebakery.com",
-        "image": "images/bread.jpg",
+        "image": "images/bread1.jpg",
         "membership": 2,
         "industry": "Bakery",
         "email": "sales@dechoicebakery.com"
