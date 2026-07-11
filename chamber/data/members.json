@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Ibom Plaza Shopping Centre",
+        "address": "Ibom Plaza, Uyo, Akwa Ibom",
+        "phone": "+234 803 111 0001",
+        "website": "https://www.ibomplaza.com",
+        "image": "images/ibomplaza.webp",
+        "membership": 3,
+        "industry": "Retail",
+        "email": "info@ibomplaza.com"
+    },
+    {
+        "name": "Akwa Savings Bank",
+        "address": "Abak Road, Uyo",
+        "phone": "+234 803 111 0002",
+        "website": "https://www.akwasavings.com",
+        "image": "images/akwasaving.webp",
+        "membership": 3,
+        "industry": "Banking",
+        "email": "support@akwasavings.com"
+    },
+    {
+        "name": "De Choice Bakery",
+        "address": "Wellington Bassey Way, Uyo",
+        "phone": "+234 803 111 0003",
+        "website": "https://www.dechoicebakery.com",
+        "image": "images/bread.jpg",
+        "membership": 2,
+        "industry": "Bakery",
+        "email": "sales@dechoicebakery.com"
+    },
+    {
+        "name": "Watbridge Hotels",
+        "address": "Nwaniba Road, Uyo",
+        "phone": "+234 803 111 0004",
+        "website": "https://www.watbridgehotels.com",
+        "image": "images/watbridge.jpg",
+        "membership": 3,
+        "industry": "Hospitality",
+        "email": "reservations@watbridgehotels.com"
+    },
+    {
+        "name": "Uyo Book Centre",
+        "address": "Oron Road, Uyo",
+        "phone": "+234 803 111 0005",
+        "website": "https://www.uyobookcentre.com",
+        "image": "images/uyo-book-centre.jpg",
+        "membership": 1,
+        "industry": "Education",
+        "email": "contact@uyobookcentre.com"
+    },
+    {
+        "name": "CleanSpark Laundry",
+        "address": "Ikot Ekpene Road, Uyo",
+        "phone": "+234 803 111 0006",
+        "website": "https://www.cleanspark.com",
+        "image": "images/laundry-service.jpg",
+        "membership": 2,
+        "industry": "Laundry Services",
+        "email": "info@cleanspark.com"
+    },
+    {
+        "name": "TechHub Uyo",
+        "address": "Shelter Afrique, Uyo",
+        "phone": "+234 803 111 0007",
+        "website": "https://www.techhubuyo.com",
+        "image": "images/techhub-computer-workspace.webp",
+        "membership": 3,
+        "industry": "Technology",
+        "email": "hello@techhubuyo.com"
+    }
+]

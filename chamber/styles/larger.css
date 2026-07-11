@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+
+    /* Header */
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #menuButton {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-right: 2rem;
+    }
+    nav a {
+        border: none;
+    }
+    /* Directory */
+    #members.grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+}
