@@ -20,7 +20,7 @@ function displayMembers(members) {
         const card = document.createElement("section");
         card.classList.add("card");
         card.innerHTML = `
-            <img src="${member.image}" alt="${member.name}" loading="lazy">
+            <img class="member-logo" src="${member.image}" alt="${member.name}"loading="lazy">
             <h2>${member.name}</h2>
             <p><strong>Address:</strong><br>${member.address}</p>
             <p><strong>Phone:</strong><br>${member.phone}</p>
@@ -28,7 +28,7 @@ function displayMembers(members) {
             <p><strong>Industry:</strong><br>${member.industry}</p>
             <p><strong>Membership:</strong> ${membershipName(member.membership)}</p>
             <p>
-                <a href="${member.website}" target="_blank">
+                <a href="${member.website}" target="_blank" rel="noopener noreferrer">
                     Visit Website
                 </a>
             </p>
@@ -40,9 +40,9 @@ function membershipName(level) {
     if (level === 1) {
         return "Member";
     } else if (level === 2) {
-        return "Silver";
+        return "Silver Member";
     } else if (level === 3) {
-        return "Gold";
+        return "Gold Member";
     } else {
         return "Member";
     }
@@ -62,10 +62,3 @@ listButton.addEventListener("click", () => {
     membersContainer.classList.remove("grid");
 });
 
-// /* Mobile Menu*/
-
-// const menuButton = document.querySelector("#menuButton");
-// const navigation = document.querySelector("#navigation");
-// menuButton.addEventListener("click", () => {
-//     navigation.classList.toggle("open");
-// });

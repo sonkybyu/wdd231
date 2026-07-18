@@ -70,6 +70,11 @@ nav a {
     padding: 1rem;
     border-top: 1px solid rgba(255,255,255,.15);
 }
+.card:hover{
+    transform:
+    translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.15);
+}
 nav a:hover {
     background: rgba(255,255,255,.15);
 }
@@ -121,7 +126,8 @@ h2 {
     border-radius: 10px;
     overflow: hidden;
     background: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    transition: transform .3s, box-shadow .3s;
     text-align: center;
 }
 .card img {
@@ -146,6 +152,10 @@ h2 {
 #members.list {
     display: flex;
     flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    padding:1rem;
+    text-align:left;
 }
 
 #members.list .card {
@@ -154,12 +164,9 @@ h2 {
     text-align: left;
     align-items: center;
 }
-
-#members.list img {
-    width: 200px;
-    height: 120px;
+#members.list img{
+    display:none;
 }
-
 /* HOME PAGE */
 
 /* Hero Section */
