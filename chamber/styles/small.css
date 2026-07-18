@@ -318,7 +318,8 @@ button:focus {
 
 /* FOOTER */
 footer {
-    margin-top: 3rem;
+    max-width: var(--max-width);
+    margin: auto;
     background: var(--primary);
     color: white;
     text-align: center;
