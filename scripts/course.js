@@ -71,37 +71,23 @@ const wddButton = document.querySelector("#wdd");
 
 // Display Courses
 function displayCourses(courseList) {
-
     courseContainer.innerHTML = "";
-
     courseList.forEach(course => {
-
         const card = document.createElement("div");
-
         card.className = course.completed ? "course completed" : "course";
-
         card.innerHTML = `
             <h3>${course.subject} ${course.number}</h3>
-
             <h4>${course.title}</h4>
-
             <p><strong>Credits:</strong> ${course.credits}</p>
-
             <p>${course.description}</p>
-
             <p><strong>Technology:</strong> ${course.technology.join(", ")}</p>
-
             <span class="status">
                 ${course.completed ? "✔ Completed" : "In Progress"}
             </span>
         `;
-
         courseContainer.appendChild(card);
-
     });
-
     calculateCredits(courseList);
-
 }
 // Calculate Credits
 function calculateCredits(courseList){
@@ -128,5 +114,4 @@ cseButton.addEventListener("click", () => {
     displayCourses(filtered);
 });
 // Initial Page Load
-
 displayCourses(courses);

@@ -62,10 +62,10 @@ listButton.addEventListener("click", () => {
     membersContainer.classList.remove("grid");
 });
 
-/* Mobile Menu*/
+// /* Mobile Menu*/
 
-const menuButton = document.querySelector("#menuButton");
-const navigation = document.querySelector("#navigation");
-menuButton.addEventListener("click", () => {
-    navigation.classList.toggle("open");
-});
+// const menuButton = document.querySelector("#menuButton");
+// const navigation = document.querySelector("#navigation");
+// menuButton.addEventListener("click", () => {
+//     navigation.classList.toggle("open");
+// });

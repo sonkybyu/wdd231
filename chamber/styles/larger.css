@@ -29,5 +29,19 @@
         justify-content: space-around;
         text-align: left;
     }
+    /* HOME PAGE */
+    .home-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero-text {
+         max-width: 450px;
+         padding: 2rem;
+        }
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+    #spotlight-container {
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
 
 }
