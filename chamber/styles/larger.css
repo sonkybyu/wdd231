@@ -42,6 +42,15 @@
     }
     #spotlight-container {
          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        }
+       }
 
+       /* =========== JOIN PAGE ================ */
+       .join-layout {
+            grid-template-columns: 2fr 1fr;
+            align-items: start;
+        }
+    .membership-cards {
+            position: sticky;
+            top: 2rem;
+        }
 }

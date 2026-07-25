@@ -89,6 +89,7 @@ function displayCourses(courseList) {
     });
     calculateCredits(courseList);
 }
+
 // Calculate Credits
 function calculateCredits(courseList){
     const credits = courseList.reduce(
@@ -112,6 +113,27 @@ cseButton.addEventListener("click", () => {
         course.subject === "CSE"
     );
     displayCourses(filtered);
-});
+  });
 // Initial Page Load
 displayCourses(courses);
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
+ courseContainer.addEventListener('click', () => {
+  displayCourseDetails(course);
+});
