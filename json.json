@@ -1,0 +1,11 @@
+{
+    "familyName" : "Ekwere",
+    "dateMoveIn" : "12/07/2026",
+    "noInFamily" :3,
+    "visitedByBishopric": true,
+    "familyMember": {
+        "name": "Nsisong Ekwere",
+        "gender": "Male",
+        "birthdate" : "06/09/1992"
+    }
+}
