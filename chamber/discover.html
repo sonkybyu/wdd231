@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Join | Uyo Chamber of Commerce</title>
+      <meta name="description" content="Discover attractions, landmarks, and places of interest in Uyo, Akwa Ibom State.">
+    <meta name="author" content="Nsisong Akpakpan">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta property="og:title" content="Discover Uyo">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Explore the culture, history, and attractions of Uyo through the Uyo Chamber of Commerce.">
+    <meta property="og:image" content="https://sonkybyu.github.io/wdd231/chamber/images/logo.jpg">
+    <meta property="og:url" content="https://sonkybyu.github.io/wdd231/chamber/discover.html">
+    <meta name="theme-color" content="#004E89">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <script type="module" src="scripts/navigation.js"></script>
+    <script defer src="scripts/date.js"></script>
+    <script type="module" src="scripts/discover.js"></script>
+    
+</head>
+
+<body>
+<main>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Uyo Chamber Logo">
+            <h1>Akwa Ibom Chamber of Commerce</h1>
+            <p>Supporting Local Businesses</p>
+        </div>
+        <button id="menuButton" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navigation">☰</button>
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html" >Directory</a>
+            <a href="discover.html" class="active" aria-current="page"> Discover </a>
+            <a href="join.html" aria-label="Join the Uyo Chamber of Commerce"> Join the Chamber </a>
+        </nav>
+    </header>
+<div id="main-content">
+     <section class="discover-hero">
+
+        <h2>Discover Uyo</h2>
+
+        <p>
+            Explore some of the places that make Uyo a vibrant city for
+            business, tourism, culture, recreation, and investment.
+        </p>
+
+    </section>
+    <!-- Local Storage Message -->
+    <section
+        id="visitMessage"
+        class="visit-message"
+        aria-live="polite">
+    </section>
+    <!-- Cards are inserted here -->
+    <section
+        id="discoverGrid"
+        class="discover-grid">
+    </section> 
+</div>
+</main>
+<footer>
+    <div>
+        <h3>Uyo Chamber of Commerce</h3>
+        <p>123 Wellington Bassey Way<br>Uyo, Akwa Ibom State<br>Nigeria</p>
+        <p>info@uyochamber.org</p>
+        <p>+234 813 818 0208</p>
+    </div>
+    <div>
+        <p> © <span id="year"></span> Nsisong Akpakpan WDD 231 </p>
+        <p id="lastModified"></p>
+    </div>
+</footer>
+
+</body>
+</html>

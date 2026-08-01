@@ -54,3 +54,43 @@
             top: 2rem;
         }
 }
+
+/* ======= MEDIUM SCREENS ================== */
+
+@media (min-width:641px) and (max-width:1024px){
+    .discover-grid{
+        display:grid;
+        gap:1.5rem;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-areas:
+        "card1 card2"
+        "card3 card4"
+        "card5 card6"
+        "card7 card8";
+    }
+}
+/* ==============LARGE SCREENS ============ */
+@media (min-width:1025px){
+    .discover-grid{
+        display:grid;
+        gap:1.5rem;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-areas:
+        "card1 card2 card3"
+        "card4 card5 card5"
+        "card6 card7 card7"
+        "card8 card8 card8";
+    }
+    
+    /* Hover effects ONLY on desktop */
+    .discover-card img{
+        transition:transform .35s ease,
+        box-shadow .35s ease,
+        filter .35s ease;
+    }
+    .discover-card img:hover{
+        transform:scale(1.05);
+        filter:brightness(110%);
+        box-shadow:0 12px 25px rgba(0,0,0,.25);
+    }
+}
