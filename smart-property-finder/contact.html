@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Smart Property Finder</title>
+    <meta name="author" content="Nsisong Akpakpan">
+    <meta name="description"
+          content="Contact Smart Property Finder for questions, rental property information, and assistance finding your next property.">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Smart Property Finder & Rental Portal">
+    <meta property="og:description" content="Find apartments, houses, offices, hostels and vacation homes with Smart Property Finder.">
+    <meta property="og:image" content="https://sonkybyu.github.io/wdd231/smart-property-finder/images/logo.jpg">
+
+    <meta property="og:url" content="https://sonkybyu.github.io/wdd231/smart-property-finder/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Smart Property Finder">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+   
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/navigation.js"></script>
+    <script type="module" src="scripts/contact.js"></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-container">
+
+        <div class="logo">
+
+            <img src="images/logo.jpg"
+                 alt="Smart Property Finder Logo">
+
+            <div>
+                <h1>Smart Property Finder</h1>
+                <p>Rental Portal</p>
+            </div>
+
+        </div>
+
+        <button id="menu"
+                aria-label="Open navigation menu">
+        </button>
+
+        <nav>
+            <ul class="navigation">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="properties.html">Properties</a>
+                </li>
+
+                <li>
+                    <a href="favorites.html">Favorites</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+
+                <li>
+                    <a class="active"
+                       href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- Page Introduction -->
+    <section class="page-banner">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            Have a question about a property or need help finding
+            the right rental? Get in touch with us.
+        </p>
+
+    </section>
+
+
+    <!-- Contact Content -->
+    <section class="contact-container">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                Our team is available to help you with property
+                searches, rental questions, and general inquiries.
+            </p>
+
+            <div class="contact-item">
+
+                <h3>Address</h3>
+
+                <p>
+                    Smart Property Finder Office<br>
+                    Uyo, Akwa Ibom State<br>
+                    Nigeria
+                </p>
+
+            </div>
+
+            <div class="contact-item">
+
+                <h3>Phone</h3>
+
+                <p>
+                    <a href="tel:+2348001234567">
+                        +234 800 123 4567
+                    </a>
+                </p>
+
+            </div>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p> <a href="mailto:info@smartpropertyfinder.com">
+                        info@smartpropertyfinder.com
+                    </a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <h3>Office Hours</h3>
+                <p>Monday – Friday: 8:00 AM – 5:00 PM </p>
+                <p> Saturday: 9:00 AM – 1:00 PM </p>
+                <p> Sunday: Closed </p>
+            </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <label for="name">
+                    Full Name
+                </label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    required>
+
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required>
+
+
+                <label for="phone">
+                    Phone Number
+                </label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel">
+                <label for="subject">
+                    Subject
+                </label>
+
+                <select id="subject" name="subject" required>
+                    <option value=""> Select a subject </option>
+                    <option value="property"> Property Inquiry </option>
+
+                    <option value="rental"> Rental Assistance </option>
+                    <option value="listing"> Property Listing </option>
+
+                    <option value="general"> General Question </option>
+                </select>
+                <label for="message">
+                    Message
+                </label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required></textarea>
+                <button
+                    type="submit"
+                    class="btn">
+                    Send Message
+                </button>
+            </form>
+            <p id="form-message"></p>
+        </div>
+    </section>
+    <!-- Map -->
+    <section class="map-section">
+        <h2>Find Our Office</h2>
+        <div class="map-container">
+            <iframe
+                title="Smart Property Finder office location"
+                src="https://www.google.com/maps?q=Uyo,+Akwa+Ibom,+Nigeria&output=embed"
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-grid">
+        <section>
+            <h3>Smart Property Finder</h3>
+            <p> Helping you discover quality rental properties.</p>
+        </section>
+        <section>
+            <h3>Quick Links</h3>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="properties.html">Properties</a> </li>
+                <li> <a href="favorites.html">Favorites</a> </li>
+                <li> <a href="about.html">About</a> </li>
+                <li> <a href="faq.html">FAQ</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Contact</h3>
+            <p> Email: info@smartpropertyfinder.com </p>
+            <p> Phone: +234 800 123 4567 </p>
+        </section>
+    </div>
+    <p class="copyright">
+        &copy;
+        <span id="year"></span>
+        Smart Property Finder & Rental Portal
+    </p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Property Finder & Rental Portal | Find Houses, Apartments & Offices</title>
+    <meta name="description" content="Smart Property Finder and Rental Portal helps users search, compare, and discover rental properties including apartments, houses, offices, hostels, and vacation homes. Save your favorite listings and find nearby properties with interactive search tools.">
+    <meta name="keywords" content="property finder, rental portal, apartments, houses, hostels, offices, vacation homes, Nigeria property, rental property, real estate, accommodation">
+    <meta name="author" content="Nsisong Akpakpan">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="theme-color" content="#1E3A8A">
+    <meta name="application-name" content="Smart Property Finder">
+   
+    <link rel="canonical" href="https://sonkybyu.github.io/wdd231/smart-property-finder/">
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Smart Property Finder & Rental Portal">
+    <meta property="og:description" content="Find apartments, houses, offices, hostels and vacation homes with Smart Property Finder.">
+    <meta property="og:image" content="https://sonkybyu.github.io/wdd231/smart-property-finder/images/logo.jpg">
+
+    <meta property="og:url" content="https://sonkybyu.github.io/wdd231/smart-property-finder/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Smart Property Finder">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+          rel="stylesheet">  
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+   
+    <script type="module" src="scripts/main.js"></script>       
+    <script type="module" src="scripts/navigation.js"></script>
+    <script type="module" src="scripts/properties.js"></script>
+    <script type="module" src="scripts/geolocation.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+    <div class="logo">
+        <img src="images/logo.jpg" alt="Smart Property Finder Logo">
+        <div>
+            <h1>Smart Property Finder</h1>
+            <p>Rental Portal</p>
+        </div>
+    </div>
+    <button id="menu"></button>
+    <nav id="navMenu">
+        <ul class="navigation">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<main>
+
+<section class="hero">
+    <picture>
+        <img src="images/hero.webp"
+             alt="Modern rental property">
+    </picture>
+    <div class="hero-text">
+        <h2>Find Your Perfect Rental Property</h2>
+        <p>
+            Search apartments, houses, offices, hostels and vacation homes
+            from one convenient location.
+        </p>
+        <a class="btn" href="properties.html"> Browse Properties </a>
+    </div>
+</section>
+<section class="search">
+    <h2>Quick Property Search</h2>
+    <form>
+        <input type="text" placeholder="Location">
+        <select>
+            <option>Property Type</option>
+            <option>Apartment</option>
+            <option>House</option>
+            <option>Hostel</option>
+            <option>Office</option>
+        </select>
+        <select>
+            <option>Bedrooms</option>
+            <option>1 Bedroom</option>
+            <option>2 Bedrooms</option>
+            <option>3 Bedrooms</option>
+            <option>4+ Bedrooms</option>
+        </select>
+        <button type="submit"> Search </button>
+    </form>
+</section>
+<section class="nearby">
+    <h2>Nearby Properties</h2>
+    <p id="user-location">
+        Click the button below to find properties near your current location.
+    </p>
+    <button id="locationBtn" class="btn">
+        Find Nearby Properties
+    </button>
+    <div id="nearby-properties" class="card-grid">
+    </div>
+</section>
+<section class="featured">
+    <h2>Featured Properties</h2>
+    <div id="featured-properties">
+        <!-- JavaScript loads featured properties here -->
+    </div>
+</section>
+
+<section class="services">
+    <h2>Why Choose Us?</h2>
+    <div class="service-grid">
+        <article>
+            <h3>Verified Listings</h3>
+            <p> Every property listing is reviewed for quality and accuracy.</p>
+        </article>
+        <article>
+            <h3>Easy Search</h3>
+            <p>Find rentals quickly using smart search filters.</p>
+        </article>
+        <article>
+            <h3>Save Favorites</h3>
+            <p>Keep track of properties you love using Local Storage.</p>
+        </article>
+        <article>
+            <h3>Nearby Properties</h3>
+            <p>Use your location to discover rentals close to you.</p>
+        </article>
+    </div>
+</section>
+<section class="latest">
+    <h2>Latest Properties</h2>
+    <div id="latest-properties">
+        <!-- JavaScript -->
+    </div>
+</section>
+<section class="testimonial">
+    <h2>Customer Reviews</h2>
+    <blockquote>
+        "Finding my apartment became simple and stress-free.
+        The search filters helped me find exactly what I needed."
+        <footer>
+            — Sarah Johnson
+        </footer>
+    </blockquote>
+</section>
+</main>
+<footer>
+    <div class="footer-grid">
+        <section>
+            <h3>Smart Property Finder</h3>
+            <p>Helping you discover your next home with ease.</p>
+        </section>
+        <section>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Contact</h3>
+            <p>Email: info@smartpropertyfinder.com</p>
+            <p>Phone: +234 800 123 4567</p>
+        </section>
+    </div>
+    <p class="copyright"> &copy; <span id="year"></span>
+        Smart Property Finder & Rental Portal
+    </p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Properties | Smart Property Finder</title>
+    <meta name="description" content="Browse apartments, houses, offices, hostels, and vacation homes available for rent.">
+    <meta name="author" content="Nsisong Akpakpan">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Smart Property Finder & Rental Portal">
+    <meta property="og:description" content="Find apartments, houses, offices, hostels and vacation homes with Smart Property Finder.">
+    <meta property="og:image" content="https://sonkybyu.github.io/wdd231/smart-property-finder/images/logo.jpg">
+
+    <meta property="og:url" content="https://sonkybyu.github.io/wdd231/smart-property-finder/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Smart Property Finder">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/navigation.js"></script>
+    <script type="module" src="scripts/search.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-container">
+
+        <div class="logo">
+
+            <img src="images/logo.jpg" alt="Smart Property Finder Logo">
+
+            <div>
+
+                <h1>Smart Property Finder</h1>
+                <p>Rental Portal</p>
+
+            </div>
+
+        </div>
+
+        <button id="menu"></button>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="properties.html">Properties</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="page-banner">
+
+        <h2>Available Rental Properties</h2>
+
+        <p>
+            Browse apartments, houses, offices, hostels, and vacation homes
+            that match your needs.
+        </p>
+
+    </section>
+
+    <section class="search">
+
+    <h2>Find Your Perfect Property</h2>
+
+    <form id="searchForm">
+
+        <input
+            type="text"
+            id="searchLocation"
+            placeholder="Enter location">
+
+        <select id="propertyType">
+
+            <option value="">All Types</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Hostel">Hostel</option>
+            <option value="Office">Office</option>
+            <option value="Vacation Home">Vacation Home</option>
+
+        </select>
+
+        <select id="bedrooms">
+
+            <option value="">Bedrooms</option>
+            <option value="1">1 Bedroom</option>
+            <option value="2">2 Bedrooms</option>
+            <option value="3">3 Bedrooms</option>
+            <option value="4">4+ Bedrooms</option>
+
+        </select>
+
+        <select id="priceRange">
+
+            <option value="">Any Price</option>
+            <option value="100000">Below ₦100,000</option>
+            <option value="250000">₦100,000 - ₦250,000</option>
+            <option value="500000">₦250,000 - ₦500,000</option>
+            <option value="1000000">Above ₦500,000</option>
+
+        </select>
+
+        <select id="sortPrice">
+
+            <option value="">Sort Price</option>
+            <option value="low">Low → High</option>
+            <option value="high">High → Low</option>
+
+        </select>
+
+    </form>
+
+</section>
+
+    <section>
+
+        <h2>Property Listings</h2>
+        <p id="property-count">
+            Loading properties...
+        </p>
+        <div id="property-grid" class="card-grid"></div>
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="footer-grid">
+
+        <section>
+
+            <h3>Smart Property Finder</h3>
+
+            <p>
+                Helping people discover quality rental properties.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h3>Contact</h3>
+
+            <p>Email: info@smartpropertyfinder.com</p>
+            <p>Phone: +234 800 123 4567</p>
+
+        </section>
+
+    </div>
+
+    <p class="copyright">
+
+        &copy;
+        <span id="year"></span>
+
+        Smart Property Finder
+
+    </p>
+
+    <p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "title": "Modern 2-Bedroom Apartment",
+        "location": "Uyo, Akwa Ibom",
+        "price": 350000,
+        "type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "image": "images/properties/apartment-1.webp",
+        "description": "A modern and comfortable two-bedroom apartment located in a convenient residential area of Uyo.",
+        "amenities": [
+            "Water Supply",
+            "Parking Space",
+            "Security",
+            "Fitted Kitchen",
+            "Tiled Floors"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Spacious Family House",
+        "location": "Ewet Housing Estate, Uyo",
+        "price": 850000,
+        "type": "House",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "image": "images/properties/house-1.jpg",
+        "description": "A spacious four-bedroom family house suitable for families looking for comfort and privacy.",
+        "amenities": [
+            "Large Compound",
+            "Parking Space",
+            "Security",
+            "Water Supply",
+            "Modern Kitchen",
+            "Balcony"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "Affordable Student Hostel",
+        "location": "Offot, Uyo",
+        "price": 120000,
+        "type": "Hostel",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "image": "images/properties/hostel-1.webp",
+        "description": "An affordable and conveniently located hostel suitable for students and young professionals.",
+        "amenities": [
+            "Water Supply",
+            "Security",
+            "Electricity",
+            "Internet Access",
+            "Parking Space"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": true
+    },
+    {
+        "id": 4,
+        "title": "Executive Office Space",
+        "location": "Ibom Plaza, Uyo",
+        "price": 500000,
+        "type": "Office",
+        "bedrooms": 0,
+        "bathrooms": 2,
+        "image": "images/properties/office-1.jpg",
+        "description": "A professional office space located in a busy commercial area, suitable for businesses and organizations.",
+        "amenities": [
+            "Reception Area",
+            "Parking Space",
+            "Security",
+            "Power Supply",
+            "Air Conditioning"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": false
+    },
+    {
+        "id": 5,
+        "title": "Luxury 3-Bedroom Apartment",
+        "location": "Shelter Afrique, Uyo",
+        "price": 650000,
+        "type": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "image": "images/properties/apartment-2.webp",
+        "description": "A stylish three-bedroom apartment with modern facilities and a comfortable living environment.",
+        "amenities": [
+            "Modern Kitchen",
+            "Parking Space",
+            "Security",
+            "Water Supply",
+            "Air Conditioning",
+            "Balcony"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": true
+    },
+    {
+        "id": 6,
+        "title": "Budget-Friendly Apartment",
+        "location": "Ikot Ekpene Road, Uyo",
+        "price": 250000,
+        "type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "image": "images/properties/apartment-3.webp",
+        "description": "A budget-friendly two-bedroom apartment offering convenient access to major roads and commercial areas.",
+        "amenities": [
+            "Water Supply",
+            "Parking Space",
+            "Security",
+            "Tiled Floors"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": false
+    },
+    {
+        "id": 7,
+        "title": "Premium Vacation Home",
+        "location": "Ewet Housing Estate, Uyo",
+        "price": 750000,
+        "type": "Vacation Home",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "image": "images/properties/vacation-1.webp",
+        "description": "A comfortable vacation property designed for visitors and families looking for a relaxing temporary stay.",
+        "amenities": [
+            "Swimming Pool",
+            "Parking Space",
+            "Security",
+            "Wi-Fi",
+            "Air Conditioning",
+            "Furnished Rooms"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": true
+    },
+    {
+        "id": 8,
+        "title": "Large 4-Bedroom Family Home",
+        "location": "Osongama Estate, Uyo",
+        "price": 1000000,
+        "type": "House",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "image": "images/properties/house-2.jpg",
+        "description": "A large family home with four bedrooms, spacious living areas, and modern residential facilities.",
+        "amenities": [
+            "Large Compound",
+            "Parking Space",
+            "Security",
+            "Water Supply",
+            "Modern Kitchen",
+            "Generator Space"
+        ],
+        "agent": "Smart Property Finder",
+        "phone": "+234 800 123 4567",
+        "featured": false
+    }
+]

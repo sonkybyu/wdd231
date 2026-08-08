@@ -1,0 +1,159 @@
+/* ==========================================
+   SMART PROPERTY FINDER & RENTAL PORTAL
+   Desktop & Tablet Styles
+========================================== */
+
+@media only screen and (min-width: 768px) {
+
+    /* ---------- Header ---------- */
+    #menu {
+        display: none;
+    }
+    header {
+        position: sticky;
+        top: 0;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navigation {
+        display: flex !important;
+        gap: 0.5rem;
+    }
+    .navigation li {
+        border: none;
+    }
+    .navigation a {
+        padding: .75rem 1.2rem;
+        border-radius: 5px;
+    }
+    /* ---------- Hero ---------- */
+    .hero {
+        position: relative;
+    }
+    .hero img {
+        height: 550px;
+        object-fit: cover;
+    }
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        background: rgba(255,255,255,.92);
+        padding: 2rem;
+        border-radius: 10px;
+        width: 450px;
+        text-align: left;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
+    .hero-text h2 {
+        font-size: 2.4rem;
+    }
+    /* ---------- Search ---------- */
+    .search form {
+        grid-template-columns: repeat(4, 1fr);
+        align-items: end;
+    }
+    /* ---------- Featured Properties ---------- */
+    #featured-properties {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    /* ---------- Latest Properties ---------- */
+    #latest-properties {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    /* ---------- Generic Cards ---------- */
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* ---------- Services ---------- */
+    .service-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    /* ---------- Footer ---------- */
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+      /* ---------- PROPERTY DETAILS ---------- */
+    .property-detail{
+        grid-template-columns:1fr 1fr;
+        align-items:start;
+    }   
+    /* ========== SEARCH FORM ===== */
+    .search form{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+        gap:1rem;
+    }
+    
+
+    .about-section {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .about-content {
+        padding: 2rem;
+    }
+
+    .page-banner h2 {
+        font-size: 2.5rem;
+    }
+
+    .mission,
+    .vision {
+        margin: 2rem auto;
+        max-width: 1000px;
+    }
+    .contact-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: start;
+    }
+    .contact-info,
+    .contact-form {
+        padding: 2rem;
+    }
+    .map-container iframe {
+        height: 450px;
+    }
+     #menu {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navigation.open {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+/* ======== Large Desktop ========= */
+@media only screen and (min-width: 1100px) {
+    .hero img {
+        height: 650px;
+    }
+    .hero-text {
+        width: 500px;
+    }
+    .hero-text h2 {
+        font-size: 2.8rem;
+    }
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    #featured-properties,
+    #latest-properties {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
